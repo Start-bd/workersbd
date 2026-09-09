@@ -1,0 +1,72 @@
+{
+  "name": "workersbd-portal",
+  "version": "1.0.0",
+  "description": "Advanced Bilingual Job Portal for Bangladesh",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node scripts/generate-sitemap.js",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "sitemap": "node scripts/generate-sitemap.js",
+    "analyze": "ANALYZE=true next build",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.294.0",
+    "next": "^14.0.0",
+    "next-seo": "^6.4.0",
+    "next-sitemap": "^4.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-intl": "^6.5.0",
+    "react-leaflet": "^4.2.1",
+    "swr": "^2.2.4",
+    "webpack-bundle-analyzer": "^5.2.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^14.0.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+        "typescript": "^5.0.0",
+        "@types/leaflet": "^1.9.0"
+  },
+  "keywords": [
+    "bangladesh",
+    "job portal",
+    "workers",
+    "employment",
+    "dhaka jobs",
+    "chittagong jobs",
+    "bilingual",
+    "bangla",
+    "workersbd"
+  ],
+  "author": "WorkersBD Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Start-bd/workersbd.git"
+  },
+  "homepage": "https://workersbd.com"
+}
